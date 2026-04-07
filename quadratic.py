@@ -19,6 +19,8 @@ def value_y(a, b, c, x):
 
 
 def to_string(a, b, c):
+    if a == 0 and b == 0:
+        return f"f(x) ={c} "
     if a ==0:
         return f"f(x) = {b} * X + {c}"
     if b == 0:
