@@ -1,5 +1,8 @@
+import math
+
+
 def roots(a, b, c):
-    discriminant = b ** 2 - 4 * a * c
+    discriminant = (b ** 2) - 4 * a * c
     if discriminant < 0:
         return "( )"
     elif discriminant == 0:
