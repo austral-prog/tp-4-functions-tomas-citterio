@@ -32,5 +32,5 @@ def derivation(a, b, c):
     if a==0:
         return f"f'(x) = {b}"
     if b==0:
-        return f"f'(x) = {a*2}x"
-    return f"f'(x) = {a*2}x + {b}"
+        return f"f'(x) = {a*2} * X"
+    return f"f'(x) = {a*2} * X + {b}"
